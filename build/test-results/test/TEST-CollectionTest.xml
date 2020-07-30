@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CollectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-30T13:03:38" hostname="LAPTOP-5M0O1IT3" time="0.05">
+  <properties/>
+  <testcase name="subArraySize()" classname="CollectionTest" time="0.05"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

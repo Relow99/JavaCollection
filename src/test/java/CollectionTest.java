@@ -1,11 +1,14 @@
+
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class CollectionTest {
+public class CollectionTest {
+    Collection mn = new Collection();
 
     @Test
-    void subArraySize() {
-        assertArrayEquals(Collection.subArraySize(arr, M ,N));
+    public void subArraySize() {
+        Assert.assertEquals(3,Collection.subArraySize(new int[]{7, 5, 5, 7, 5, 5, 7, 5 ,5 ,6}, 3, 10 ));
+
+
     }
 }
